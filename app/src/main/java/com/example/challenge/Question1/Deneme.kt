@@ -4,15 +4,15 @@ import java.util.Scanner
 import kotlin.random.Random
 
 fun main(){
-    var random= Random.nextInt(0,101)
+    val random= 55 /*Random.nextInt(0,101)*/
 
-    var scanner = Scanner(System.`in`)
+    val scanner = Scanner(System.`in`)
 
     var count = 1
     println("Lütfen sayıyı tahmin ediniz")
     var input = scanner.nextInt()
 
-    while (!input.equals(random)){
+    while (!input.equals(random) ){
         println("Lütfen sayıyı tahmin ediniz")
         input =scanner.nextInt()
         if (input.equals(random)){
@@ -20,8 +20,13 @@ fun main(){
             println("Tahmin Sayısı : $count")
             break;
         }
-        count++
+        if(count ==5){
+            println("5 deneme hakknız doldu.")
+            break
+        }
 
+
+        count++
     }
 
     if (input.equals(random)){
