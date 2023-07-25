@@ -12,8 +12,6 @@ fun checkVowel(input : String) : Boolean? {
 }
 
 fun main(){
-
-
     val  scanner = Scanner(System.`in`)
 
     println("Harf giriniz.")
