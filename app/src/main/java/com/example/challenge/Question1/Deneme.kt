@@ -4,7 +4,7 @@ import java.util.Scanner
 import kotlin.random.Random
 
 fun main(){
-    var random= 55 /*Random.nextInt(0,101)*/
+    var random= Random.nextInt(0,101)
 
     var scanner = Scanner(System.`in`)
 
@@ -22,6 +22,11 @@ fun main(){
         }
         count++
 
+    }
+
+    if (input.equals(random)){
+        println("Doğru bildiniz <3")
+        println("Tahmin Sayısı : $count")
     }
 
 }
