@@ -1,4 +1,4 @@
-package com.example.challenge.Question5
+package com.example.challenge.week1.Question5
  // TODO: Bir "Öğrenci" adlı sınıf oluşturun ve öğrencilerin adı, soyadı ve sınıfı gibi özellikleri içeren özellikleri tanımlayın. Ardından, bu sınıftan beş öğrenci nesnesi oluşturun ve bu öğrencilerin özelliklerini ekrana yazdıran bir fonksiyon yazın
 fun main (){
     val student= Student("Ömer","Doğan","12a")

@@ -1,4 +1,4 @@
-package com.example.challenge.Question1
+package com.example.challenge.week1.Question1
 
 import java.util.Scanner
 import kotlin.random.Random
@@ -24,8 +24,6 @@ fun main(){
             println("5 deneme hakknız doldu.")
             break
         }
-
-
         count++
     }
 

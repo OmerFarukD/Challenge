@@ -1,4 +1,4 @@
-package com.example.challenge.Question4
+package com.example.challenge.week1.Question4
 
 import java.util.Scanner
 

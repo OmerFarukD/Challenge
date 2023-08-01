@@ -1,4 +1,4 @@
-package com.example.challenge.Question5
+package com.example.challenge.week1.Question5
 
 data class Student
     (val name :String, val surname:String,val room:String){

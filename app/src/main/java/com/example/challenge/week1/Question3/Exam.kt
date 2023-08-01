@@ -1,4 +1,4 @@
-package com.example.challenge.Question3
+package com.example.challenge.week1.Question3
 
 fun main(){
     var note = 75

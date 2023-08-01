@@ -1,4 +1,4 @@
-package com.example.challenge.Question6
+package com.example.challenge.week1.Question6
 
 import java.time.Month
 
