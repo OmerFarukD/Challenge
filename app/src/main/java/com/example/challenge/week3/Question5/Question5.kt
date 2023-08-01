@@ -10,5 +10,5 @@ fun listele(list : ArrayList<Int>) : HashSet<Int>{
 
 
 fun main() {
-    println(listele(arrayListOf(1,1,2,2,3,3)))
+    println(listele(arrayListOf(1,1,2,2,3,3,3)))
 }
