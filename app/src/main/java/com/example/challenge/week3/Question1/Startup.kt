@@ -6,7 +6,6 @@ fun topla(list: ArrayList<Int>) : Int{
     return sum
 }
 
-
 fun main() {
-println(topla(arrayListOf(1,2,3,4,5)))
+println(topla(arrayListOf(1,2,4)))
 }
